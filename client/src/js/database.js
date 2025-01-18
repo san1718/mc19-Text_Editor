@@ -21,7 +21,7 @@ export const putDb = async (content) => {
   // Creates new transaction and specifies the database
   const tx = thatDb.transaction("textedit", "readwrite");
   // Opens desired object store
-  const store = tx.objectStore("textdone");
+  const store = tx.objectStore("textchange");
   // Uses the .put() method on store and passes id and content
   const request = store.put({ id: 1, value: content});
   // Gets the request
@@ -31,6 +31,17 @@ export const putDb = async (content) => {
 
 
 // Adds logic for a method that gets all the content from the database
-export const getDb = async () => console.error('getDb not implemented');
+export const getDb = async () => { 
+  console.log('GET from the database');
+
+  const thatDb = await openDB("textchange", 1);
+  const tx = thatDb.transaction("textchange", "readonly");
+  const store = tx.objectStore("textchange");
+  const request = store.get(1);
+  const result = await request;
+  console.log("result.value", result);
+  
+  return result?.value;
+};
 
 initdb();
