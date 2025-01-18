@@ -6,6 +6,7 @@ The application will help the user create a code snippet with or without connect
 * Download web application as an icon on the desktop
 
 ## Installation
+To start, you will need to do the following:
 * npm install
 * npm run start
 
