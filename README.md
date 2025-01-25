@@ -1,4 +1,4 @@
-# Text Editor be different
+# Text Editor be Different (TED)
 ## Overview
 This progressive web application (PWA) will help the user create a code snippet with or without connection so that it can be retrieved for later use.
 
