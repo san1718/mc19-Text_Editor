@@ -29,5 +29,7 @@ The user will be able to create notes or code snippets with or without connectio
 
 ## Screenshots
 <img width="1000" alt="Homepage" src="">
-<img width="1000" alt="Homepage" src="">
-<img width="1000" alt="Homepage" src="">
+<img width="1000" alt="Storage" src="">
+<img width="1000" alt="Manifest" src="">
+<img width="1000" alt="SW" src="">
+<img width="1000" alt="textedit" src="">

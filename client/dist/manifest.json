@@ -31,8 +31,8 @@
       "type": "image/png"
     }
   ],
-  "name": "TextEditor",
-  "short_name": "Editor",
+  "name": "Text Editor",
+  "short_name": "texteditor",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./",
