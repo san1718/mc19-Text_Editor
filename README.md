@@ -29,7 +29,7 @@ The user will be able to create notes or code snippets with or without connectio
 ## Links
 [Home](https://github.com/san1718/mc19-Text_Editor)
 <br />
-[Deployed]()
+[Deployed](https://mc19-text-editor.onrender.com/)
 <br />
 
 ## Screenshots
@@ -38,5 +38,3 @@ The user will be able to create notes or code snippets with or without connectio
 <img width="1000" alt="Manifest" src="https://github.com/san1718/mc19-Text_Editor/blob/main/images/Manifest.png">
 <img width="1000" alt="SW" src="https://github.com/san1718/mc19-Text_Editor/blob/main/images/SW.png">
 <img width="1000" alt="textedit" src="https://github.com/san1718/mc19-Text_Editor/blob/main/images/textedit.png">
-
-[Video Demo]()
