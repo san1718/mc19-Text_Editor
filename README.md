@@ -18,25 +18,26 @@ This progressive web application (PWA) will help the user create a code snippet 
 * PWA Installation
 
 ## Installation
-1. Clone Repository:
+For local: 
+1. **Clone Repository:**
     ```bash
     git clone git@github.com:san1718/mc19-Text_Editor.git
     cd mc19-Text_Editor
     ```
-2. Install dependencies:
+2. **Install dependencies:**
     ```bash
     npm install
     ```
-3. Build the client-side files:
+3. **Build the client-side files:**
     ```bash
     npm run build
     ```
-4. Start the application:
+4. **Start the application:**
     ```bash
     npm start
     ```
 
-Open browser and navigate to:
+**Open browser and navigate to:**
 * [localhost:3000](http://localhost:3000)
 
 ## Summary
